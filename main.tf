@@ -12,10 +12,10 @@ resource "random_string" "myrandom" {
 }
 
 # Create Resource Group
-resource "azurerm_resource_group" "resource_group" {
-  name     = var.resource_group_name
-  location = var.location
-}
+#resource "azurerm_resource_group" "resource_group" {
+#  name     = var.resource_group_name
+#  location = var.location
+#}
 
 # Create Azure Storage account
 resource "azurerm_storage_account" "storage_account" {
